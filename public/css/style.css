@@ -113,16 +113,21 @@ nav ul {
 }
 .locations-head h2 {
   padding: 1rem 4rem;
-  color: #040f0fef;
+  color: #040f0fc2;
   text-decoration: none;
   background: #e0caa1e0;
 }
 .locations-head h3 {
-  padding: 4rem 4rem;
+  padding: 2.2rem 5rem;
   color: #e0caa1;
   background: #040f0fe0;
+}
+
+.locations-head h3:nth-child(3)
+{
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.5);
 }
+
 .cloud {
   position: absolute;
   top: 0%;
