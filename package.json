@@ -1,0 +1,26 @@
+{
+  "name": "plainhtml-csspage",
+  "version": "1.0.0",
+  "description": "This is my old project that I made while I was learning basics of HTML5 & CSS3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranq997/plainHTML-CSSpage.git"
+  },
+  "author": "Matija Pranjkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranq997/plainHTML-CSSpage/issues"
+  },
+  "homepage": "https://github.com/pranq997/plainHTML-CSSpage#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}

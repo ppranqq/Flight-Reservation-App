@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="description" content="Simple page made with HTML5 and CSS3.") 
+        meta(name="robots" content="index, follow")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@0;1&display=swap" rel="stylesheet")
+        link(rel="icon" href="/images/camp.ico")
+        link(rel="stylesheet" href="/css/style.css")
+        title Sample Page | HTML5 CSS3
+    body 
+        header.main-head
+            nav
+                h1#logo tOS
+                ul
+                    li
+                        a(href="#locations") Locations
+                    li
+                        a(href="#benefits") Benefits
+                    li
+                        a(href="#contact") Contact
+        section.hero
+            h2 Travel Beyond Limits!
+            h3 Start your professional or private journey with us!
+            br 
+            h3 Contact us now!
+            button Apply 
+        section#locations
+            header.locations-head
+                h2 The Perfect Travelling Experience.
+                h3 We cover everything from pickcing the perfect hotel, 
+                br
+                h3 flight and travelling destination.
+                img(src="/images/cloud.png" class="moving-cloud-1 cloud") 
+                img(src="/images/cloud.png" class="moving-cloud-2 cloud") 
+        section.benefits
+            header.benefits-head
+                h2 The Perfect Travel
+                h3 We cover everything from picking the perfect hotel 
+                br 
+                h3 to flight and destination.
+            div.cards
+                div.card
+                    div.card-icon
+                        img(src="/images/routePng.png" alt="")
+                    h4 Travel 
+                    p Travel in over 250 countries with no effort.
+                div.card
+                    div.card-icon
+                        img(src="/images/bedPng.png" alt="")
+                    h4 Hotel                         
+                    p Hotels located near popular areas.
+                div.card
+                    div.card-icon
+                        img(src="/images/planePng.png" alt="")
+                    h4 Fly
+                    p Flight included in every purchased trip.
+        section#contact
+            div.form-wrapper
+                header.form-head
+                    h2 Contact Us Now!
+                form
+                    div.name-form 
+                        label(for="name") Name:
+                        input(type="text" name="name" required)
+                    div.email-form
+                        label(for="email") Email:
+                        input(type="email" required name="email")
+                    button(type="submit") Submit
+        footer
+            div.footer-wrapper
+                h5 tOS 
+                    small &copy;
+                ul#bottom
+                    li
+                        a(href="#bottom")
+                            img(src="/images/twitter.png" alt="twitter")
+                    li
+                        a(href="#bottom")
+                            img(src="/images/instagram.png" alt="instagram")
+                    li
+                        a(href="#bottom")
+                            img(src="/images/youtube.png" alt="youtube")
+        
